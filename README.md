@@ -18,8 +18,8 @@ Working with MongoDB and MySQL using Pandas library moving and cleaning stock da
 Machine learning for analyzing social media posts and detecting potential bias.  
 Includes preprocessing, feature engineering, model training, and analysis.
 
-### 4. MVP Daily News Web App - [Link](https://github.com/kmd2zjw/CS4260-Daily-Bugle)
-Collaborated to develop a lightweight news application prototype with role-based authentication and ad/click tracking to simulate monetization. Built with Node.js and Express, containerized with Docker for portability, and designed to demonstrate core backend functionality for a scalable media platform.
+### 4. MVP Daily News Web App - [Link](https://github.com/njg19/daily-bugle-mvp)
+Collaborated in a 3-person team to develop a lightweight news application prototype with role-based authentication and ad/click tracking to simulate monetization. Built with Node.js and Express, containerized with Docker for portability, and designed to demonstrate core backend functionality for a scalable media platform.
 
 ## Tech Stack
 - Python, Pandas, Plotly, scikit-learn  
