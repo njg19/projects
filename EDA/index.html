@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="bento">
+    <div class="tile wide" id="header-tile">
+        <h2>🌤️ DC Historical Weather: </h2>
+        <strong>An interactive dashboard to analyze historical weather in DC</strong>
+        <p>This site uses data from <a href="https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407?resource=download">Kaggle</a></p>
+    </div>
+
+    <div class="tile" id="info-tile">
+        <h3>Data Range of Dates</h3>
+        <div>
+            <p>8/2025</p>
+            <p>to</p>
+            <p>7/2024</p>
+        </div>
+    </div>
+
+    <div class="tile big" id="temp-tile">
+        <h3>Understanding Pressure and Wind Speed</h3>
+    </div>
+
+    <div class="tile tall" id="condition-tile">
+        <h3>Monthly Weather Comparisons: 2017 vs 2023</h3>
+    </div>
+
+    <div class="tile" id="precip-tile">
+        <h3>Annual Precip (mm) in DC</h3>
+    </div>
+
+    <div class="tile wide" id="wind-tile">
+        <h3>Summer 2023: Temperature vs. Humidity</h3>
+    </div>
+
+    <div class="tile max" id="sankey-tile">
+        <h3>Temperature and Conditions</h3>
+    </div>
+
+  </div>
+  <div class="footer">© 2025 Nate Gleberman. This dashboard was created as a portfolio project.</div>
+  <script src="app.js"></script>
+</body>
+</html>
