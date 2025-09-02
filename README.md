@@ -1,6 +1,6 @@
 # Projects Portfolio
 
-This repo contains three projects that showcase different areas of data work:  
+This site contains four projects that showcase different areas of data work:  
 - **EDA & Visualization** with Washington, DC weather data  
 - **ETL Pipeline** using MongoDB and MySQL  
 - **Machine Learning** demo detecting bias in social media posts
